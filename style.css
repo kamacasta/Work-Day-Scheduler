@@ -1,8 +1,10 @@
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
+
 
 textarea{
   background: transparent;
@@ -20,6 +22,8 @@ textarea{
   border-radius: 0;
   border-bottom: 10px solid black;
 }
+
+/* styles scheduler */
 
 .description{
   white-space: pre-wrap;
@@ -56,6 +60,8 @@ textarea{
   background-color: #77dd77;
   color: white;
 }
+
+/* styles button within scheduler */
 
 .saveBtn {
   border-left: 1px solid black;
