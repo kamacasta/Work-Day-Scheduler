@@ -6,33 +6,30 @@ var displayTime = moment().format('MMMM Do YYYY, h:mm:ss a');
 $(".jumbotron").append(displayTime);
 
 
-// for loop created to 
+// for loop not finished
 for (var i = 0; i < workDayArr.length; i++) {
 
     // local variable containing the workDayArr (universal varaible)
     var time = workDayArr[i];
-
+    var textArea = document.querySelectorAll(".description");
+    var saveBtn = document.querySelectorAll(".saveBtn");
+    
     
 
 
+    // Timeblocks will change color depending on when viewed
+    
+    var presentHour = moment().hour()
+    var hour = [9, 10, 11, 12, 13, 14, 15, 16, 17];
+    if (presentHour === number[i]){
+        textArea.css('.past')
+    }
+        
 
+    // saveBtn logic
 
 }
 
 
 
 
-
-
-
-
-
-
-// function for save button
-
-
-
-// function to update .aa and .remove class
-
-
-//load, date and call data from local storage
